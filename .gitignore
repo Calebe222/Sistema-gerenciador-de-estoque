@@ -1,0 +1,25 @@
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+venv.bak/
+.idea/
+.vscode/
+.DS_Store
+*.sqlite3
+*.db
+*.log
+Thumbs.db
+
+# imagens temporárias
+*.png
+*.jpg
+*.jpeg
+
+# sistema
+*.bak
+
