@@ -2,7 +2,7 @@ import psycopg2
 import traceback
 
 try:
-    conn = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='Calebe@7676')
+    conn = psycopg2.connect(host='localhost', database='postgres', user='postgres', password='')
     cur = conn.cursor()
     cur.execute("SELECT column_name, data_type FROM information_schema.columns WHERE table_schema='public' AND table_name='produtos'")
     cols = cur.fetchall()
